@@ -38,7 +38,9 @@ section {
 }
 
 main {
+  border: 2px solid var(--danger);
   max-width: 35rem;
+  margin: 50px auto;
 }
 
 h3 {
@@ -197,6 +199,7 @@ input:checked ~ .bubble::after {
 .todo-item .todo-content input {
   color: var(--dark);
   font-size: 1.125rem;
+  /* text-overflow: ellipsis; */
 }
 
 .todo-item .actions {
